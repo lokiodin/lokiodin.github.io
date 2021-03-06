@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Over the Wire - Challenge Write Ups Bandit | lokiodin</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="A site that will be finished one day">
+    
+    <link rel="preload" href="/assets/css/0.styles.8cc6ebca.css" as="style"><link rel="preload" href="/assets/js/app.71648187.js" as="script"><link rel="preload" href="/assets/js/2.6a883eb4.js" as="script"><link rel="preload" href="/assets/js/11.127d24f6.js" as="script"><link rel="prefetch" href="/assets/js/10.bee72ed7.js"><link rel="prefetch" href="/assets/js/12.9f93aa40.js"><link rel="prefetch" href="/assets/js/13.6c035653.js"><link rel="prefetch" href="/assets/js/14.83cc9d01.js"><link rel="prefetch" href="/assets/js/3.c012df25.js"><link rel="prefetch" href="/assets/js/4.601c32e0.js"><link rel="prefetch" href="/assets/js/5.3eff9ba2.js"><link rel="prefetch" href="/assets/js/6.a87340b3.js"><link rel="prefetch" href="/assets/js/7.c00b8315.js"><link rel="prefetch" href="/assets/js/8.3227f3cd.js"><link rel="prefetch" href="/assets/js/9.151a0421.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.8cc6ebca.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">lokiodin</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/ctf/" class="nav-link">
+  CTF
+</a></div><div class="nav-item"><a href="/overthewire/" class="nav-link router-link-active">
+  Over The Wire
+</a></div><div class="nav-item"><a href="https://github.com/lokiodin" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  My GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/ctf/" class="nav-link">
+  CTF
+</a></div><div class="nav-item"><a href="/overthewire/" class="nav-link router-link-active">
+  Over The Wire
+</a></div><div class="nav-item"><a href="https://github.com/lokiodin" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  My GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Over the Wire - Challenge Write Ups Bandit</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/overthewire/Overthewire-Bandit.html#level-0" class="sidebar-link">Level 0</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-0-→-level-1" class="sidebar-link">Level 0 → Level 1</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-1-→-level-2" class="sidebar-link">Level 1 → Level 2</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-2-→-level-3" class="sidebar-link">Level 2 → Level 3</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-3-→-level-4" class="sidebar-link">Level 3 → Level 4</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-4-→-level-5" class="sidebar-link">Level 4 → Level 5</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-5-→-level-6" class="sidebar-link">Level 5 → Level 6</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-6-→-level-7" class="sidebar-link">Level 6 → Level 7</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-7-→-level-8" class="sidebar-link">Level 7 → Level 8</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-8-→-level-9" class="sidebar-link">Level 8 → Level 9</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-9-→-level-10" class="sidebar-link">Level 9 → Level 10</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-10-→-level-11" class="sidebar-link">Level 10 → Level 11</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-11-→-level-12" class="sidebar-link">Level 11 → Level 12</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-12-→-level-13" class="sidebar-link">Level 12 → Level 13</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-13-→-level-14" class="sidebar-link">Level 13 → Level 14</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-14-→-level-15" class="sidebar-link">Level 14 → Level 15</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-15-→-level-16" class="sidebar-link">Level 15 → Level 16</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-16-→-level-17" class="sidebar-link">Level 16 → Level 17</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-17-→-level-18" class="sidebar-link">Level 17 → Level 18</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-18-→-level-19" class="sidebar-link">Level 18 → Level 19</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-19-→-level-20" class="sidebar-link">Level 19 → Level 20</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-20-→-level-21" class="sidebar-link">Level 20 → Level 21</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-21-→-level-22" class="sidebar-link">Level 21 → Level 22</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-22-→-level-23" class="sidebar-link">Level 22 → Level 23</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-23-→-level-24" class="sidebar-link">Level 23 → Level 24</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-24-→-level-25" class="sidebar-link">Level 24 → Level 25</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-25-→-level-26" class="sidebar-link">Level 25 → Level 26</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-26-→-level-27" class="sidebar-link">Level 26 → Level 27</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-27-→-level-28" class="sidebar-link">Level 27 → Level 28</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-28-→-level-29" class="sidebar-link">Level 28 → Level 29</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-29-→-level-30" class="sidebar-link">Level 29 → Level 30</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-30-→-level-31" class="sidebar-link">Level 30 → Level 31</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-31-→-level-32" class="sidebar-link">Level 31 → Level 32</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-32-→-level-33" class="sidebar-link">Level 32 → Level 33</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/overthewire/Overthewire-Bandit.html#level-33-→-level-34" class="sidebar-link">Level 33 → Level 34</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="overthewire-bandit"><a href="#overthewire-bandit" class="header-anchor">#</a> OverTheWire Bandit</h1> <h2 id="level-0"><a href="#level-0" class="header-anchor">#</a> Level 0</h2> <blockquote><p><strong>Level Goal</strong></p> <p>The goal of this level is for you to log into the game using SSH. The host to which you need to connect is bandit.labs.overthewire.org, on port 2220. The username is bandit0 and the password is bandit0. Once logged in, go to the Level 1 page to find out how to beat Level 1.</p></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">ssh</span> -p <span class="token number">2220</span>  bandit0@bandit.labs.overthewire.org
+</code></pre></div><h2 id="level-0-→-level-1"><a href="#level-0-→-level-1" class="header-anchor">#</a> Level 0 → Level 1</h2> <blockquote><p><strong>Level Goal</strong></p> <p>The password for the next level is stored in a file called readme located in the home directory. Use this password to log into bandit1 using SSH. Whenever you find a password for a level, use SSH (on port 2220) to log into that level and continue the game.</p></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cat</span> readme
+</code></pre></div><p>Pass : <code>boJ9jbbUNNfktd78OOpsqOltutMc3MY1</code></p> <p><code>bandit1:boJ9jbbUNNfktd78OOpsqOltutMc3MY1</code></p> <h2 id="level-1-→-level-2"><a href="#level-1-→-level-2" class="header-anchor">#</a> Level 1 → Level 2</h2> <blockquote><p><strong>Level Goal</strong></p> <p>The password for the next level is stored in a file called - located in the home directory</p></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cat</span> ./-
+CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
+</code></pre></div><p>Pass : <code>CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9</code></p> <p><code>bandit2:CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9</code></p> <h2 id="level-2-→-level-3"><a href="#level-2-→-level-3" class="header-anchor">#</a> Level 2 → Level 3</h2> <blockquote><p><strong>Level Goal</strong></p> <p>The password for the next level is stored in a file called spaces in this filename located in the home directory</p></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cat</span> <span class="token string">&quot;spaces in this filename&quot;</span>
+UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+</code></pre></div><p>Pass : <code>UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK</code></p> <p><code>bandit3:UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK</code></p> <h2 id="level-3-→-level-4"><a href="#level-3-→-level-4" class="header-anchor">#</a> Level 3 → Level 4</h2> <blockquote><p><strong>Level Goal</strong></p> <p>The password for the next level is stored in a hidden file in the inhere directory.</p></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cat</span> inhere/.hidden
+pIwrPrtPN36QITSp3EQaw936yaFoFgAB
+</code></pre></div><p>Pass : <code>pIwrPrtPN36QITSp3EQaw936yaFoFgAB</code></p> <p><code>bandit4:pIwrPrtPN36QITSp3EQaw936yaFoFgAB</code></p> <h2 id="level-4-→-level-5"><a href="#level-4-→-level-5" class="header-anchor">#</a> Level 4 → Level 5</h2> <blockquote><p><strong>Level Goal</strong></p> <p>The password for the next level is stored in the only human-readable file in the inhere directory. Tip: if your terminal is messed up, try the “reset” command.</p></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code>$ strings inhere/*
+koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+</code></pre></div><p>Pass : <code>koReBOKuIDDepwhWk7jZC0RTdopnAYKh</code></p> <p><code>bandit5:koReBOKuIDDepwhWk7jZC0RTdopnAYKh</code></p> <h2 id="level-5-→-level-6"><a href="#level-5-→-level-6" class="header-anchor">#</a> Level 5 → Level 6</h2> <blockquote><p><strong>Level Goal</strong></p> <p>The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:</p> <div class="language- extra-class"><pre><code>     human-readable
+     1033 bytes in size
+     not executable
+</code></pre></div></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">find</span> ./inhere/ -readable -size 1033c -exec <span class="token function">cat</span> <span class="token punctuation">{</span><span class="token punctuation">}</span> +
+DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+</code></pre></div><p>Pass : <code>DXjZPULLxYr17uwoI01bNLQbtFemEgo7</code></p> <p><code>bandit6:DXjZPULLxYr17uwoI01bNLQbtFemEgo7</code></p> <h2 id="level-6-→-level-7"><a href="#level-6-→-level-7" class="header-anchor">#</a> Level 6 → Level 7</h2> <blockquote><p><strong>Level Goal</strong></p> <p>The password for the next level is stored somewhere on the server and has all of the following properties:</p> <div class="language- extra-class"><pre><code>     owned by user bandit7
+     owned by group bandit6
+     33 bytes in size
+</code></pre></div></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">find</span> / -size 33c -user bandit7 -group bandit6 -exec <span class="token function">cat</span> <span class="token punctuation">{</span><span class="token punctuation">}</span> + <span class="token operator"><span class="token file-descriptor important">2</span>&gt;</span>/dev/null
+HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+</code></pre></div><p>Pass : <code>HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs</code></p> <p><code>bandit7:HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs</code></p> <h2 id="level-7-→-level-8"><a href="#level-7-→-level-8" class="header-anchor">#</a> Level 7 → Level 8</h2> <blockquote><p><strong>Level Goal</strong></p> <p>The password for the next level is stored in the file data.txt next to the word millionth</p></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cat</span> data.txt <span class="token operator">|</span> <span class="token function">grep</span> millionth
+millionth       cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+</code></pre></div><p>Pass : <code>cvX2JJa4CFALtqS87jk27qwqGhBM9plV</code></p> <p><code>bandit8:cvX2JJa4CFALtqS87jk27qwqGhBM9plV</code></p> <h2 id="level-8-→-level-9"><a href="#level-8-→-level-9" class="header-anchor">#</a> Level 8 → Level 9</h2> <blockquote><p><strong>Level Goal</strong></p> <p>The password for the next level is stored in the file data.txt and is the only line of text that occurs only once</p></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">sort</span> data.txt <span class="token operator">|</span> <span class="token function">uniq</span> -u
+UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+</code></pre></div><p>Pass : <code>UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR</code></p> <p><code>bandit9:UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR</code></p> <h2 id="level-9-→-level-10"><a href="#level-9-→-level-10" class="header-anchor">#</a> Level 9 → Level 10</h2> <blockquote><p><strong>Level Goal</strong></p> <p>The password for the next level is stored in the file data.txt in one of the few human-readable strings, preceded by several ‘=’ characters.</p></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code>$ strings data.txt <span class="token operator">|</span> <span class="token function">grep</span> <span class="token operator">==</span><span class="token operator">=</span>
+<span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span> the*2i&quot;4
+<span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span> password
+Z<span class="token punctuation">)</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span> is
+<span class="token operator">&amp;</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span> truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+</code></pre></div><p>Pass : <code>truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk</code></p> <p><code>bandit10:truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk</code></p> <h2 id="level-10-→-level-11"><a href="#level-10-→-level-11" class="header-anchor">#</a> Level 10 → Level 11</h2> <blockquote><p><strong>Level Goal</strong></p> <p>The password for the next level is stored in the file data.txt, which contains base64 encoded data</p></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cat</span> data.txt <span class="token operator">|</span> base64 -d
+The password is IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+</code></pre></div><p>Pass : <code>IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR</code></p> <p><code>bandit11:IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR</code></p> <h2 id="level-11-→-level-12"><a href="#level-11-→-level-12" class="header-anchor">#</a> Level 11 → Level 12</h2> <blockquote><p><strong>Level Goal</strong></p> <p>The password for the next level is stored in the file data.txt, where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions</p></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cat</span> data.txt <span class="token operator">|</span> <span class="token function">tr</span> <span class="token string">&quot;A-Za-z&quot;</span> <span class="token string">&quot;N-ZA-Mn-za-m&quot;</span>
+The password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+</code></pre></div><p>Pass : <code>5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu</code></p> <p><code>bandit12:5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu</code></p> <h2 id="level-12-→-level-13"><a href="#level-12-→-level-13" class="header-anchor">#</a> Level 12 → Level 13</h2> <blockquote><p><strong>Level Goal</strong></p> <p>The password for the next level is stored in the file data.txt, which is a hexdump of a file that has been repeatedly compressed. For this level it may be useful to create a directory under /tmp in which you can work using mkdir. For example: mkdir /tmp/myname123. Then copy the datafile using cp, and rename it using mv (read the manpages!)</p></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code>$ xxd -r data.txt <span class="token operator">&gt;</span> data.bin
+
+$ <span class="token function">file</span> data.bin
+
+<span class="token comment"># Si $name est un fichier bzip2 (avec la commande file)</span>
+$ <span class="token function">mv</span> <span class="token variable">$name</span> <span class="token variable">$name</span>.bz2
+$ <span class="token assign-left variable">name</span><span class="token operator">=</span><span class="token variable">$name</span>.bz2
+$ <span class="token function">bzip2</span> -d <span class="token variable">$name</span>
+
+<span class="token comment"># Si $name est un fichier gzip (avec la commande file)</span>
+$ <span class="token function">mv</span> <span class="token variable">$name</span> <span class="token variable">$name</span>.gz
+$ <span class="token assign-left variable">name</span><span class="token operator">=</span><span class="token variable">$name</span>.gz
+$ <span class="token function">gzip</span> -d <span class="token variable">$name</span>
+
+<span class="token comment"># Si $name est un fichier tar (avec la commande file)</span>
+$ <span class="token function">mv</span> <span class="token variable">$name</span> <span class="token variable">$name</span>.tar
+$ <span class="token assign-left variable">name</span><span class="token operator">=</span><span class="token variable">$name</span>.tar
+$ <span class="token function">tar</span> -xf <span class="token variable">$name</span>
+
+<span class="token comment"># Et on recommence tant que ce n'est pas un fichier ASCII</span>
+$ <span class="token function">cat</span> <span class="token variable">$name</span> <span class="token comment"># pour avoir le password</span>
+
+</code></pre></div><p>Pass : <code>8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL</code></p> <p><code>bandit13:8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL</code></p> <h2 id="level-13-→-level-14"><a href="#level-13-→-level-14" class="header-anchor">#</a> Level 13 → Level 14</h2> <blockquote><p><strong>Level Goal</strong></p> <p>The password for the next level is stored in /etc/bandit_pass/bandit14 and can only be read by user bandit14. For this level, you don’t get the next password, but you get a private SSH key that can be used to log into the next level. Note: localhost is a hostname that refers to the machine you are working on</p></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token comment"># Se connecter à bandit 13 !!</span>
+$ <span class="token function">ssh</span> -i sshkey.private bandit14@localhost
+</code></pre></div><p>Pass : <code>cat sshkey.private -----BEGIN RSA PRIVATE KEY----- MIIEpAIBAAKCAQEAxkkOE83W2cOT7IWhFc9aPaaQmQDdgzuXCv+ppZHa++buSkN+ gg0tcr7Fw8NLGa5+Uzec2rEg0WmeevB13AIoYp0MZyETq46t+jk9puNwZwIt9XgB ZufGtZEwWbFWw/vVLNwOXBe4UWStGRWzgPpEeSv5Tb1VjLZIBdGphTIK22Amz6Zb ThMsiMnyJafEwJ/T8PQO3myS91vUHEuoOMAzoUID4kN0MEZ3+XahyK0HJVq68KsV ObefXG1vvA3GAJ29kxJaqvRfgYnqZryWN7w3CHjNU4c/2Jkp+n8L0SnxaNA+WYA7 jiPyTF0is8uzMlYQ4l1Lzh/8/MpvhCQF8r22dwIDAQABAoIBAQC6dWBjhyEOzjeA J3j/RWmap9M5zfJ/wb2bfidNpwbB8rsJ4sZIDZQ7XuIh4LfygoAQSS+bBw3RXvzE pvJt3SmU8hIDuLsCjL1VnBY5pY7Bju8g8aR/3FyjyNAqx/TLfzlLYfOu7i9Jet67 xAh0tONG/u8FB5I3LAI2Vp6OviwvdWeC4nOxCthldpuPKNLA8rmMMVRTKQ+7T2VS nXmwYckKUcUgzoVSpiNZaS0zUDypdpy2+tRH3MQa5kqN1YKjvF8RC47woOYCktsD o3FFpGNFec9Taa3Msy+DfQQhHKZFKIL3bJDONtmrVvtYK40/yeU4aZ/HA2DQzwhe ol1AfiEhAoGBAOnVjosBkm7sblK+n4IEwPxs8sOmhPnTDUy5WGrpSCrXOmsVIBUf laL3ZGLx3xCIwtCnEucB9DvN2HZkupc/h6hTKUYLqXuyLD8njTrbRhLgbC9QrKrS M1F2fSTxVqPtZDlDMwjNR04xHA/fKh8bXXyTMqOHNJTHHNhbh3McdURjAoGBANkU 1hqfnw7+aXncJ9bjysr1ZWbqOE5Nd8AFgfwaKuGTTVX2NsUQnCMWdOp+wFak40JH PKWkJNdBG+ex0H9JNQsTK3X5PBMAS8AfX0GrKeuwKWA6erytVTqjOfLYcdp5+z9s 8DtVCxDuVsM+i4X8UqIGOlvGbtKEVokHPFXP1q/dAoGAcHg5YX7WEehCgCYTzpO+ xysX8ScM2qS6xuZ3MqUWAxUWkh7NGZvhe0sGy9iOdANzwKw7mUUFViaCMR/t54W1 GC83sOs3D7n5Mj8x3NdO8xFit7dT9a245TvaoYQ7KgmqpSg/ScKCw4c3eiLava+J 3btnJeSIU+8ZXq9XjPRpKwUCgYA7z6LiOQKxNeXH3qHXcnHok855maUj5fJNpPbY iDkyZ8ySF8GlcFsky8Yw6fWCqfG3zDrohJ5l9JmEsBh7SadkwsZhvecQcS9t4vby 9/8X4jS0P8ibfcKS4nBP+dT81kkkg5Z5MohXBORA7VWx+ACohcDEkprsQ+w32xeD qT1EvQKBgQDKm8ws2ByvSUVs9GjTilCajFqLJ0eVYzRPaY6f++Gv/UVfAPV4c+S0 kAWpXbv5tbkkzbS0eaLPTKgLzavXtQoTtKwrjpolHKIHUz6Wu+n4abfAIRFubOdN /+aLoRQ0yBDRbdXMsZN/jvY44eM+xRLdRVyMmdPtP8belRi2E2aEzA== -----END RSA PRIVATE KEY-----</code></p> <p>En se connectant à bandit14 <code>cat /etc/bandit_pass/bandit14</code></p> <p><code>bandit14:4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e</code></p> <h2 id="level-14-→-level-15"><a href="#level-14-→-level-15" class="header-anchor">#</a> Level 14 → Level 15</h2> <blockquote><p><strong>Level Goal</strong></p> <p>The password for the next level can be retrieved by submitting the password of the current level to port 30000 on localhost.</p></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cat</span> /etc/bandit_pass/bandit14 <span class="token operator">|</span> <span class="token function">nc</span> localhost <span class="token number">30000</span> <span class="token comment"># ou</span>
+$ <span class="token builtin class-name">echo</span> <span class="token string">&quot;4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e&quot;</span> <span class="token operator">|</span> <span class="token function">nc</span> localhost <span class="token number">30000</span>
+
+
+Correct<span class="token operator">!</span>
+BfMYroe26WYalil77FoDi9qh59eK5xNr
+</code></pre></div><p>Pass : <code>BfMYroe26WYalil77FoDi9qh59eK5xNr</code></p> <p><code>bandit15:BfMYroe26WYalil77FoDi9qh59eK5xNr</code></p> <h2 id="level-15-→-level-16"><a href="#level-15-→-level-16" class="header-anchor">#</a> Level 15 → Level 16</h2> <blockquote><p><strong>Level Goal</strong></p> <p>The password for the next level can be retrieved by submitting the password of the current level to port 30001 on localhost using SSL encryption.</p></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token builtin class-name">echo</span> <span class="token string">&quot;BfMYroe26WYalil77FoDi9qh59eK5xNr&quot;</span> <span class="token operator">|</span> openssl s_client -connect localhost:30001 -quiet
+<span class="token assign-left variable">depth</span><span class="token operator">=</span><span class="token number">0</span> CN <span class="token operator">=</span> localhost
+verify error:num<span class="token operator">=</span><span class="token number">18</span>:self signed certificate
+verify return:1
+<span class="token assign-left variable">depth</span><span class="token operator">=</span><span class="token number">0</span> CN <span class="token operator">=</span> localhost
+verify return:1
+Correct<span class="token operator">!</span>
+cluFn7wTiGryunymYOu4RcffSxQluehd
+</code></pre></div><p>Pass : <code>cluFn7wTiGryunymYOu4RcffSxQluehd</code></p> <p><code>bandit16:cluFn7wTiGryunymYOu4RcffSxQluehd</code></p> <h2 id="level-16-→-level-17"><a href="#level-16-→-level-17" class="header-anchor">#</a> Level 16 → Level 17</h2> <blockquote><p><strong>Level Goal</strong></p> <p>The credentials for the next level can be retrieved by submitting the password of the current level to a port on localhost in the range 31000 to 32000. First find out which of these ports have a server listening on them. Then find out which of those speak SSL and which don’t. There is only 1 server that will give the next credentials, the others will simply send back to you whatever you send to it.</p></blockquote> <p>On scan les ports entre 31000 et 32000.</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ nmap -p <span class="token number">31000</span>-32000 localhost <span class="token comment"># On obtient comme port :</span>
+PORT      STATE SERVICE
+<span class="token number">31046</span>/tcp <span class="token function">open</span>  unknown
+<span class="token number">31518</span>/tcp <span class="token function">open</span>  unknown
+<span class="token number">31691</span>/tcp <span class="token function">open</span>  unknown
+<span class="token number">31790</span>/tcp <span class="token function">open</span>  unknown
+<span class="token number">31960</span>/tcp <span class="token function">open</span>  unknown
+</code></pre></div><p>On essaie différent ports avec la commande <code>echo &quot;cluFn7wTiGryunymYOu4RcffSxQluehd&quot; | openssl s_client -connect localhost:&lt;port&gt; -quiet</code></p> <p>Et finalement, c'est le port <code>31790</code> qui est le bon.</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token builtin class-name">echo</span> <span class="token string">&quot;cluFn7wTiGryunymYOu4RcffSxQluehd&quot;</span> <span class="token operator">|</span> openssl s_client -connect localhost:31790 -quiet
+<span class="token operator">&lt;</span>RESULTAT OMIS<span class="token operator">&gt;</span>
+-----BEGIN RSA PRIVATE KEY-----
+MIIEogIBAAKCAQEAvmOkuifmMg6HL2YPIOjon6iWfbp7c3jx34YkYWqUH57SUdyJ
+imZzeyGC0gtZPGujUSxiJSWI/oTqexh+cAMTSMlOJf7+BrJObArnxd9Y7YT2bRPQ
+Ja6Lzb558YW3FZl87ORiO+rW4LCDCNd2lUvLE/GL2GWyuKN0K5iCd5TbtJzEkQTu
+DSt2mcNn4rhAL+JFr56o4T6z8WWAW18BR6yGrMq7Q/kALHYW3OekePQAzL0VUYbW
+JGTi65CxbCnzc/w4+mqQyvmzpWtMAzJTzAzQxNbkR2MBGySxDLrjg0LWN6sK7wNX
+x0YVztz/zbIkPjfkU1jHS+9EbVNj+D1XFOJuaQIDAQABAoIBABagpxpM1aoLWfvD
+KHcj10nqcoBc4oE11aFYQwik7xfW+24pRNuDE6SFthOar69jp5RlLwD1NhPx3iBl
+J9nOM8OJ0VToum43UOS8YxF8WwhXriYGnc1sskbwpXOUDc9uX4+UESzH22P29ovd
+d8WErY0gPxun8pbJLmxkAtWNhpMvfe0050vk9TL5wqbu9AlbssgTcCXkMQnPw9nC
+YNN6DDP2lbcBrvgT9YCNL6C+ZKufD52yOQ9qOkwFTEQpjtF4uNtJom+asvlpmS8A
+vLY9r60wYSvmZhNqBUrj7lyCtXMIu1kkd4w7F77k+DjHoAXyxcUp1DGL51sOmama
++TOWWgECgYEA8JtPxP0GRJ+IQkX262jM3dEIkza8ky5moIwUqYdsx0NxHgRRhORT
+8c8hAuRBb2G82so8vUHk/fur85OEfc9TncnCY2crpoqsghifKLxrLgtT+qDpfZnx
+SatLdt8GfQ85yA7hnWWJ2MxF3NaeSDm75Lsm+tBbAiyc9P2jGRNtMSkCgYEAypHd
+HCctNi/FwjulhttFx/rHYKhLidZDFYeiE/v45bN4yFm8x7R/b0iE7KaszX+Exdvt
+SghaTdcG0Knyw1bpJVyusavPzpaJMjdJ6tcFhVAbAjm7enCIvGCSx+X3l5SiWg0A
+R57hJglezIiVjv3aGwHwvlZvtszK6zV6oXFAu0ECgYAbjo46T4hyP5tJi93V5HDi
+Ttiek7xRVxUl+iU7rWkGAXFpMLFteQEsRr7PJ/lemmEY5eTDAFMLy9FL2m9oQWCg
+R8VdwSk8r9FGLS+9aKcV5PI/WEKlwgXinB3OhYimtiG2Cg5JCqIZFHxD6MjEGOiu
+L8ktHMPvodBwNsSBULpG0QKBgBAplTfC1HOnWiMGOU3KPwYWt0O6CdTkmJOmL8Ni
+blh9elyZ9FsGxsgtRBXRsqXuz7wtsQAgLHxbdLq/ZJQ7YfzOKU4ZxEnabvXnvWkU
+YOdjHdSOoKvDQNWu6ucyLRAWFuISeXw9a/9p7ftpxm0TSgyvmfLF2MIAEwyzRqaM
+77pBAoGAMmjmIJdjp+Ez8duyn3ieo36yrttF5NSsJLAbxFpdlc1gvtGCWW+9Cq0b
+dxviW8+TFVEBl1O4f7HVm6EpTscdDxU+bCXWkfjuRb7Dy9GOtt9JPsX8MBTakzh3
+vBgsyi/sN3RqRBcGU40fOoZyfAMT8s1m/uYv52O6IgeuZ/ujbjY<span class="token operator">=</span>
+-----END RSA PRIVATE KEY-----
+</code></pre></div><p>Pass : <code>-----BEGIN RSA PRIVATE KEY----- MIIEogIBAAKCAQEAvmOkuifmMg6HL2YPIOjon6iWfbp7c3jx34YkYWqUH57SUdyJ imZzeyGC0gtZPGujUSxiJSWI/oTqexh+cAMTSMlOJf7+BrJObArnxd9Y7YT2bRPQ Ja6Lzb558YW3FZl87ORiO+rW4LCDCNd2lUvLE/GL2GWyuKN0K5iCd5TbtJzEkQTu DSt2mcNn4rhAL+JFr56o4T6z8WWAW18BR6yGrMq7Q/kALHYW3OekePQAzL0VUYbW JGTi65CxbCnzc/w4+mqQyvmzpWtMAzJTzAzQxNbkR2MBGySxDLrjg0LWN6sK7wNX x0YVztz/zbIkPjfkU1jHS+9EbVNj+D1XFOJuaQIDAQABAoIBABagpxpM1aoLWfvD KHcj10nqcoBc4oE11aFYQwik7xfW+24pRNuDE6SFthOar69jp5RlLwD1NhPx3iBl J9nOM8OJ0VToum43UOS8YxF8WwhXriYGnc1sskbwpXOUDc9uX4+UESzH22P29ovd d8WErY0gPxun8pbJLmxkAtWNhpMvfe0050vk9TL5wqbu9AlbssgTcCXkMQnPw9nC YNN6DDP2lbcBrvgT9YCNL6C+ZKufD52yOQ9qOkwFTEQpjtF4uNtJom+asvlpmS8A vLY9r60wYSvmZhNqBUrj7lyCtXMIu1kkd4w7F77k+DjHoAXyxcUp1DGL51sOmama +TOWWgECgYEA8JtPxP0GRJ+IQkX262jM3dEIkza8ky5moIwUqYdsx0NxHgRRhORT 8c8hAuRBb2G82so8vUHk/fur85OEfc9TncnCY2crpoqsghifKLxrLgtT+qDpfZnx SatLdt8GfQ85yA7hnWWJ2MxF3NaeSDm75Lsm+tBbAiyc9P2jGRNtMSkCgYEAypHd HCctNi/FwjulhttFx/rHYKhLidZDFYeiE/v45bN4yFm8x7R/b0iE7KaszX+Exdvt SghaTdcG0Knyw1bpJVyusavPzpaJMjdJ6tcFhVAbAjm7enCIvGCSx+X3l5SiWg0A R57hJglezIiVjv3aGwHwvlZvtszK6zV6oXFAu0ECgYAbjo46T4hyP5tJi93V5HDi Ttiek7xRVxUl+iU7rWkGAXFpMLFteQEsRr7PJ/lemmEY5eTDAFMLy9FL2m9oQWCg R8VdwSk8r9FGLS+9aKcV5PI/WEKlwgXinB3OhYimtiG2Cg5JCqIZFHxD6MjEGOiu L8ktHMPvodBwNsSBULpG0QKBgBAplTfC1HOnWiMGOU3KPwYWt0O6CdTkmJOmL8Ni blh9elyZ9FsGxsgtRBXRsqXuz7wtsQAgLHxbdLq/ZJQ7YfzOKU4ZxEnabvXnvWkU YOdjHdSOoKvDQNWu6ucyLRAWFuISeXw9a/9p7ftpxm0TSgyvmfLF2MIAEwyzRqaM 77pBAoGAMmjmIJdjp+Ez8duyn3ieo36yrttF5NSsJLAbxFpdlc1gvtGCWW+9Cq0b dxviW8+TFVEBl1O4f7HVm6EpTscdDxU+bCXWkfjuRb7Dy9GOtt9JPsX8MBTakzh3 vBgsyi/sN3RqRBcGU40fOoZyfAMT8s1m/uYv52O6IgeuZ/ujbjY= -----END RSA PRIVATE KEY-----</code></p> <p>Connu en se connectant en ssh sur bandit17 depuis bandit16 (avec la sshkey du dessus): <code>cat /etc/bandit_pass/bandit17</code> <code>bandit17:xLYVMN9WE5zQ5vHacb0sZEVqbrp7nBTn</code></p> <h2 id="level-17-→-level-18"><a href="#level-17-→-level-18" class="header-anchor">#</a> Level 17 → Level 18</h2> <blockquote><p><strong>Level Goal</strong></p> <p>There are 2 files in the homedirectory: passwords.old and passwords.new. The password for the next level is in passwords.new and is the only line that has been changed between passwords.old and passwords.new</p> <p>NOTE: if you have solved this level and see ‘Byebye!’ when trying to log into bandit18, this is related to the next level, bandit19</p></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">diff</span> passwords.new passwords.old
+42c42
+<span class="token operator">&lt;</span> kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
+---
+<span class="token operator">&gt;</span> w0Yfolrc5bwjS4qw5mq1nnQi6mF03bii
+</code></pre></div><p>Pass : <code>kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd</code></p> <p><code>bandit18:kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd</code></p> <h2 id="level-18-→-level-19"><a href="#level-18-→-level-19" class="header-anchor">#</a> Level 18 → Level 19</h2> <blockquote><p><strong>Level Goal</strong></p> <p>The password for the next level is stored in a file readme in the homedirectory. Unfortunately, someone has modified .bashrc to log you out when you log in with SSH.</p> <p>Il faut mettre un commande à la fin (ici <code>cat ./readme</code>)</p></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">ssh</span> -p <span class="token number">2220</span> bandit18@bandit.labs.overthewire.org <span class="token function">cat</span> ./readme
+This is a OverTheWire game server. More information on http://www.overthewire.org/wargames
+bandit18@bandit.labs.overthewire.org's password:
+
+IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
+</code></pre></div><p>Pass : <code>IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x</code></p> <p><code>bandit19:IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x</code></p> <h2 id="level-19-→-level-20"><a href="#level-19-→-level-20" class="header-anchor">#</a> Level 19 → Level 20</h2> <blockquote><p><strong>Level Goal</strong></p> <p>To gain access to the next level, you should use the setuid binary in the homedirectory. Execute it without arguments to find out how to use it. The password for this level can be found in the usual place (/etc/bandit_pass), after you have used the setuid binary.</p></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code>$ ./bandit20-do <span class="token function">cat</span> /etc/bandit_pass/bandit20
+GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+</code></pre></div><p>Pass : <code>GbKksEFF4yrVs6il55v6gwY5aVje5f0j</code></p> <p><code>bandit20:GbKksEFF4yrVs6il55v6gwY5aVje5f0j</code></p> <h2 id="level-20-→-level-21"><a href="#level-20-→-level-21" class="header-anchor">#</a> Level 20 → Level 21</h2> <blockquote><p><strong>Level Goal</strong></p> <p>There is a setuid binary in the homedirectory that does the following: it makes a connection to localhost on the port you specify as a commandline argument. It then reads a line of text from the connection and compares it to the password in the previous level (bandit20). If the password is correct, it will transmit the password for the next level (bandit21).</p></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code>$ ./suconnect <span class="token number">4242</span> <span class="token operator">&amp;</span> <span class="token builtin class-name">echo</span> <span class="token string">&quot;GbKksEFF4yrVs6il55v6gwY5aVje5f0j&quot;</span> <span class="token operator">|</span> <span class="token function">nc</span> -lvnp <span class="token number">4242</span>
+<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token number">17255</span>
+listening on <span class="token punctuation">[</span>any<span class="token punctuation">]</span> <span class="token number">4242</span> <span class="token punctuation">..</span>.
+connect to <span class="token punctuation">[</span><span class="token number">127.0</span>.0.1<span class="token punctuation">]</span> from <span class="token punctuation">(</span>UNKNOWN<span class="token punctuation">)</span> <span class="token punctuation">[</span><span class="token number">127.0</span>.0.1<span class="token punctuation">]</span> <span class="token number">34686</span>
+Read: GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+Password matches, sending next password
+gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
+</code></pre></div><p>Pass : <code>gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr</code></p> <p><code>bandit21:gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr</code></p> <h2 id="level-21-→-level-22"><a href="#level-21-→-level-22" class="header-anchor">#</a> Level 21 → Level 22</h2> <blockquote><p><strong>Level Goal</strong></p> <p>A program is running automatically at regular intervals from cron, the time-based job scheduler. Look in /etc/cron.d/ for the configuration and see what command is being executed.</p></blockquote> <p>On voit qu'il fait le cron job <code>cronjob_bandit22</code> :</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cat</span> /etc/cron.d/cronjob_bandit22
+@reboot bandit22 /usr/bin/cronjob_bandit22.sh <span class="token operator">&amp;&gt;</span> /dev/null
+* * * * * bandit22 /usr/bin/cronjob_bandit22.sh <span class="token operator">&amp;&gt;</span> /dev/null
+</code></pre></div><p>Il lance le script <code>/usr/bin/cronjob_bandit22.sh</code> :</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cat</span> /usr/bin/cronjob_bandit22.sh
+<span class="token comment">#!/bin/bash</span>
+<span class="token function">chmod</span> <span class="token number">644</span> /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+<span class="token function">cat</span> /etc/bandit_pass/bandit22 <span class="token operator">&gt;</span> /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+</code></pre></div><p>Et ainsi :</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cat</span> /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
+</code></pre></div><p>Pass : <code>Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI</code></p> <p><code>bandit22:Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI</code></p> <h2 id="level-22-→-level-23"><a href="#level-22-→-level-23" class="header-anchor">#</a> Level 22 → Level 23</h2> <blockquote><p><strong>Level Goal</strong></p> <p>A program is running automatically at regular intervals from cron, the time-based job scheduler. Look in /etc/cron.d/ for the configuration and see what command is being executed.</p></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cat</span> /etc/cron.d/cronjob_bandit23
+@reboot bandit23 /usr/bin/cronjob_bandit23.sh  <span class="token operator">&amp;&gt;</span> /dev/null
+* * * * * bandit23 /usr/bin/cronjob_bandit23.sh  <span class="token operator">&amp;&gt;</span> /dev/null
+</code></pre></div><p>Puis :</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cat</span> /usr/bin/cronjob_bandit23.sh
+<span class="token comment">#!/bin/bash</span>
+
+<span class="token assign-left variable">myname</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">whoami</span><span class="token variable">)</span></span>
+<span class="token assign-left variable">mytarget</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token builtin class-name">echo</span> I am user $myname <span class="token operator">|</span> md5sum <span class="token operator">|</span> <span class="token function">cut</span> -d <span class="token string">' '</span> -f <span class="token number">1</span><span class="token variable">)</span></span>
+
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;Copying passwordfile /etc/bandit_pass/<span class="token variable">$myname</span> to /tmp/<span class="token variable">$mytarget</span>&quot;</span>
+
+<span class="token function">cat</span> /etc/bandit_pass/<span class="token variable">$myname</span> <span class="token operator">&gt;</span> /tmp/<span class="token variable">$mytarget</span>
+</code></pre></div><p>Et enfin :</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cat</span> <span class="token operator">&lt;</span> <span class="token variable"><span class="token variable">$(</span><span class="token builtin class-name">echo</span> /tmp/<span class="token punctuation">$(</span>echo I am user bandit23 <span class="token operator">|</span> md5sum <span class="token operator">|</span> <span class="token function">cut</span> -d <span class="token string">' '</span> -f <span class="token number">1</span><span class="token punctuation">)</span><span class="token variable">)</span></span>
+jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
+</code></pre></div><p>Pass : <code>jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n</code></p> <p><code>bandit23:jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n</code></p> <h2 id="level-23-→-level-24"><a href="#level-23-→-level-24" class="header-anchor">#</a> Level 23 → Level 24</h2> <blockquote><p><strong>Level Goal</strong></p> <p>A program is running automatically at regular intervals from cron, the time-based job scheduler. Look in /etc/cron.d/ for the configuration and see what command is being executed.</p></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cat</span> /etc/cron.d/cronjob_bandit24
+@reboot bandit24 /usr/bin/cronjob_bandit24.sh <span class="token operator">&amp;&gt;</span> /dev/null
+* * * * * bandit24 /usr/bin/cronjob_bandit24.sh <span class="token operator">&amp;&gt;</span> /dev/null
+</code></pre></div><p>Le programme ci-dessous éxécute tous les programmes qui sont dans le dossier <code>/var/spool/bandit24/</code> en tant que bandit24:</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cat</span> /usr/bin/cronjob_bandit24.sh
+<span class="token comment">#!/bin/bash</span>
+
+<span class="token assign-left variable">myname</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">whoami</span><span class="token variable">)</span></span>
+
+<span class="token builtin class-name">cd</span> /var/spool/<span class="token variable">$myname</span>
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;Executing and deleting all scripts in /var/spool/<span class="token variable">$myname</span>:&quot;</span>
+<span class="token keyword">for</span> <span class="token for-or-select variable">i</span> <span class="token keyword">in</span> * .*<span class="token punctuation">;</span>
+<span class="token keyword">do</span>
+    <span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token string">&quot;<span class="token variable">$i</span>&quot;</span> <span class="token operator">!=</span> <span class="token string">&quot;.&quot;</span> -a <span class="token string">&quot;<span class="token variable">$i</span>&quot;</span> <span class="token operator">!=</span> <span class="token string">&quot;..&quot;</span> <span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token keyword">then</span>
+        <span class="token builtin class-name">echo</span> <span class="token string">&quot;Handling <span class="token variable">$i</span>&quot;</span>
+        <span class="token assign-left variable">owner</span><span class="token operator">=</span><span class="token string">&quot;<span class="token variable"><span class="token variable">$(</span><span class="token function">stat</span> --format <span class="token string">&quot;%U&quot;</span> ./$i<span class="token variable">)</span></span>&quot;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token string">&quot;<span class="token variable">${owner}</span>&quot;</span> <span class="token operator">=</span> <span class="token string">&quot;bandit23&quot;</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+            <span class="token function">timeout</span> -s <span class="token number">9</span> <span class="token number">60</span> ./<span class="token variable">$i</span>
+        <span class="token keyword">fi</span>
+        <span class="token function">rm</span> -f ./<span class="token variable">$i</span>
+    <span class="token keyword">fi</span>
+<span class="token keyword">done</span>
+</code></pre></div><p>Donc notre petit script bash dans le répertoire <code>/var/spool/bandit24</code> sera :</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token builtin class-name">echo</span> <span class="token string">&quot;cat /etc/bandit_pass/bandit24 &gt; /tmp/undossier/pass_bandit24&quot;</span> <span class="token operator">&gt;</span> /var/spool/bandit24/getpass.sh<span class="token punctuation">;</span> <span class="token function">chmod</span> <span class="token number">777</span> /var/spool/bandit24/getpass.sh
+</code></pre></div><p>On attend un peu le temps que le cron fasse son job et :</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cat</span> pass_bandit24
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+</code></pre></div><p>Pass : <code>UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ</code></p> <p><code>bandit24:UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ</code></p> <h2 id="level-24-→-level-25"><a href="#level-24-→-level-25" class="header-anchor">#</a> Level 24 → Level 25</h2> <blockquote><p><strong>Level Goal</strong></p> <p>A daemon is listening on port 30002 and will give you the password for bandit25 if given the password for bandit24 and a secret numeric 4-digit pincode. There is no way to retrieve the pincode except by going through all of the 10000 combinations, called brute-forcing.</p></blockquote> <p>On va créer un script qui se connecte au port 30002 et lui envoie le mot de passe de bandit24 et toutes les possibilité de 0 à 10000.
+A faire dans un dossier dans <code>/tmp</code></p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token shebang important">#! /bin/bash</span>
+
+<span class="token keyword">for</span> <span class="token for-or-select variable">i</span> <span class="token keyword">in</span> <span class="token variable"><span class="token variable">$(</span><span class="token function">seq</span> <span class="token number">10000</span><span class="token variable">)</span></span><span class="token punctuation">;</span> <span class="token keyword">do</span>
+	<span class="token builtin class-name">echo</span> <span class="token string">&quot;UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ <span class="token variable">$i</span>&quot;</span> <span class="token operator">&gt;&gt;</span> liste
+<span class="token keyword">done</span>
+<span class="token function">cat</span> liste <span class="token operator">|</span> <span class="token function">nc</span> localhost <span class="token number">30002</span>
+</code></pre></div><p>Puis</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">chmod</span> +x script.sh
+$ ./script.sh
+
+Correct<span class="token operator">!</span>
+The password of user bandit25 is uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
+
+Exiting.
+</code></pre></div><p>Pass : <code>uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG</code></p> <p><code>bandit25:uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG</code></p> <h2 id="level-25-→-level-26"><a href="#level-25-→-level-26" class="header-anchor">#</a> Level 25 → Level 26</h2> <blockquote><p><strong>Level Goal</strong></p> <p>Logging in to bandit26 from bandit25 should be fairly easy… The shell for user bandit26 is not /bin/bash, but something else. Find out what it is, how it works and how to break out of it.</p></blockquote> <p>On cherche le shell du l'utilisateur bandit26 :</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cat</span> /etc/passwd <span class="token operator">|</span> <span class="token function">grep</span> bandit26
+bandit26:x:11026:11026:bandit level <span class="token number">26</span>:/home/bandit26:/usr/bin/showtext
+</code></pre></div><p>Il n'a donc pas de shell, mais éxécute le fichier <code>/usr/bin/showtext</code></p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cat</span> /usr/bin/showtext
+<span class="token comment">#!/bin/sh</span>
+
+<span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">TERM</span></span><span class="token operator">=</span>linux
+
+<span class="token function">more</span> ~/text.txt
+<span class="token builtin class-name">exit</span> <span class="token number">0</span>
+</code></pre></div><p>Il affiche le <code>~/text.txt</code> avec la commande <code>more</code>, or on sait que lorsqu'il n'y a pas assez de place, cela permet de pouvoir &quot;naviguer&quot; dans le fichier texte.
+De plus on sait qu'on peut exécuter des commandes.
+Ainsi, on réduis la fenêtre de notre terminal, on se connecte en ssh et on tape <code>v</code> pour rentrer dans l'éditeur, puis on peut exécuter une commande de la même façon que dans vim:</p> <div class="language- extra-class"><pre class="language-text"><code>: /etc/bandit_pass/bandit26
+</code></pre></div><p>Ce qui nous donne le mot de passe de bandit26 !</p> <p>Nota : On peut aussi avoir un shell en tant que bandit26 en tapant à la place les commandes suivantes (dans tous les cas, il faudra le faire pour le challenge prochain):</p> <div class="language- extra-class"><pre class="language-text"><code>:set shell=/bin/bash
+:shell
+</code></pre></div><p>Pass : <code>5czgV9L3Xx8JPOyRbXh6lQbmIOWvPT6Z</code></p> <p><code>bandit26:5czgV9L3Xx8JPOyRbXh6lQbmIOWvPT6Z</code></p> <h2 id="level-26-→-level-27"><a href="#level-26-→-level-27" class="header-anchor">#</a> Level 26 → Level 27</h2> <blockquote><p><strong>Level Goal</strong></p> <p>Good job getting a shell! Now hurry and grab the password for bandit27!</p></blockquote> <p>Il faut faire la manipulation juste au dessus pour avoir un shell en tant que bandit26.
+Puis :</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ ./bandit27-do <span class="token function">cat</span> /etc/bandit_pass/bandit27
+3ba3118a22e93127a4ed485be72ef5ea
+</code></pre></div><p>Pass : <code>3ba3118a22e93127a4ed485be72ef5ea</code></p> <p><code>bandit27:3ba3118a22e93127a4ed485be72ef5ea</code></p> <h2 id="level-27-→-level-28"><a href="#level-27-→-level-28" class="header-anchor">#</a> Level 27 → Level 28</h2> <blockquote><p><strong>Level Goal</strong></p> <p>There is a git repository at ssh://bandit27-git@localhost/home/bandit27-git/repo. The password for the user bandit27-git is the same as for the user bandit27.</p> <p>Clone the repository and find the password for the next level.</p></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> clone ssh://bandit27-git@localhost/home/bandit27-git/repo <span class="token comment"># utiliser le meme mot de passe que bandit27</span>
+$ <span class="token function">cat</span> repo/README
+The password to the next level is: 0ef186ac70e04ea33b4c1853d2526fa2
+</code></pre></div><p>Pass : <code>0ef186ac70e04ea33b4c1853d2526fa2</code></p> <p><code>bandit28:0ef186ac70e04ea33b4c1853d2526fa2</code></p> <h2 id="level-28-→-level-29"><a href="#level-28-→-level-29" class="header-anchor">#</a> Level 28 → Level 29</h2> <blockquote><p><strong>Level Goal</strong></p> <p>There is a git repository at ssh://bandit28-git@localhost/home/bandit28-git/repo. The password for the user bandit28-git is the same as for the user bandit28.</p> <p>Clone the repository and find the password for the next level.</p></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> clone ssh://bandit28-git@localhost/home/bandit28-git/repo
+$ <span class="token builtin class-name">cd</span> repo
+$ <span class="token function">cat</span> README.md
+<span class="token comment"># Bandit Notes</span>
+Some notes <span class="token keyword">for</span> level29 of bandit.
+
+<span class="token comment">## credentials</span>
+
+- username: bandit29
+- password: xxxxxxxxxx
+</code></pre></div><p>On voit donc que le mot de passe est remplacé par <code>xxxxxxxxxx</code>. On se doute qu'il y a eu une version antérieure du fichier avec le mot de passe en clair.</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> show <span class="token comment"># Pour voir le dernier changement.</span>
+<span class="token comment"># Si on ne sait pas quel changement :</span>
+$ <span class="token function">git</span> logs <span class="token comment"># Pour voir les differents changement</span>
+$ <span class="token function">git</span> show <span class="token operator">&lt;</span>id commit<span class="token operator">&gt;</span>
+
+</code></pre></div><p>Pass : <code>bbc96594b4e001778eee9975372716b2</code></p> <p><code>bandit29:bbc96594b4e001778eee9975372716b2</code></p> <h2 id="level-29-→-level-30"><a href="#level-29-→-level-30" class="header-anchor">#</a> Level 29 → Level 30</h2> <blockquote><p><strong>Level Goal</strong></p> <p>There is a git repository at ssh://bandit29-git@localhost/home/bandit29-git/repo. The password for the user bandit29-git is the same as for the user bandit29.</p> <p>Clone the repository and find the password for the next level.</p></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> show
+commit 208f463b5b3992906eabf23c562eda3277fea912
+Author: Ben Dover <span class="token operator">&lt;</span>noone@overthewire.org<span class="token operator">&gt;</span>
+Date:   Thu May <span class="token number">7</span> <span class="token number">20</span>:14:51 <span class="token number">2020</span> +0200
+
+    fix username
+
+<span class="token function">diff</span> --git a/README.md b/README.md
+index 2da2f39<span class="token punctuation">..</span>1af21d3 <span class="token number">100644</span>
+--- a/README.md
++++ b/README.md
+@@ -3,6 +3,6 @@ Some notes <span class="token keyword">for</span> bandit30 of bandit.
+
+ <span class="token comment">## credentials</span>
+
+-- username: bandit29
++- username: bandit30
+ - password: <span class="token operator">&lt;</span>no passwords <span class="token keyword">in</span> production<span class="token operator">!</span><span class="token operator">&gt;</span>
+</code></pre></div><p>On voit qu'il y a eu un changement juste au niveau de l'username et pas de mot de passe.</p> <p>On peut aussi s'interésser à d'autres branches, vu qu'il n'y a pas de production, il y a des chances qu'il y ai une branche git pour le developpement.</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> branch -a <span class="token comment"># Pour lister toutes les branches</span>
+* master
+  remotes/origin/HEAD -<span class="token operator">&gt;</span> origin/master
+  remotes/origin/dev
+  remotes/origin/master
+  remotes/origin/sploits-dev
+$ <span class="token function">git</span> checkout dev <span class="token comment"># Pour changer de branche</span>
+$ <span class="token function">cat</span> README.md
+<span class="token comment"># Bandit Notes</span>
+Some notes <span class="token keyword">for</span> bandit30 of bandit.
+
+<span class="token comment">## credentials</span>
+
+- username: bandit30
+- password: 5b90576bedb2cc04c86a9e924ce42faf
+</code></pre></div><p>Pass : <code>5b90576bedb2cc04c86a9e924ce42faf</code></p> <p><code>bandit30:5b90576bedb2cc04c86a9e924ce42faf</code></p> <h2 id="level-30-→-level-31"><a href="#level-30-→-level-31" class="header-anchor">#</a> Level 30 → Level 31</h2> <blockquote><p><strong>Level Goal</strong></p> <p>There is a git repository at ssh://bandit30-git@localhost/home/bandit30-git/repo. The password for the user bandit30-git is the same as for the user bandit30.</p> <p>Clone the repository and find the password for the next level.</p></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cat</span> README.md
+just an epmty file<span class="token punctuation">..</span>. muahaha
+</code></pre></div><p>On n'a pas encore utilisé les tags dans git !!</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> tag
+secret
+</code></pre></div><p>On voit qu'il y a un tag <code>secret</code>.
+Ainsi :</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> show secret
+47e603bb428404d265f59c42920d81e5
+</code></pre></div><p>Pass : <code>47e603bb428404d265f59c42920d81e5</code></p> <p><code>bandit31:47e603bb428404d265f59c42920d81e5</code></p> <h2 id="level-31-→-level-32"><a href="#level-31-→-level-32" class="header-anchor">#</a> Level 31 → Level 32</h2> <blockquote><p><strong>Level Goal</strong></p> <p>There is a git repository at ssh://bandit31-git@localhost/home/bandit31-git/repo. The password for the user bandit31-git is the same as for the user bandit31.</p> <p>Clone the repository and find the password for the next level.</p></blockquote> <p>On voit ce message :</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cat</span> README.md
+This <span class="token function">time</span> your task is to push a <span class="token function">file</span> to the remote repository.
+
+Details:
+    File name: key.txt
+    Content: <span class="token string">'May I come in?'</span>
+    Branch: master
+</code></pre></div><p>Donc :</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token builtin class-name">echo</span> <span class="token string">&quot;May I come in?&quot;</span> <span class="token operator">&gt;</span> key.txt
+$ <span class="token function">git</span> <span class="token function">add</span> key.txt
+$ <span class="token function">rm</span> .gitignore
+$ <span class="token function">git</span> commit -m <span class="token string">'quelque chose'</span>
+$ <span class="token function">git</span> push origin master
+Counting objects: <span class="token number">3</span>, done.
+Delta compression using up to <span class="token number">2</span> threads.
+Compressing objects: <span class="token number">100</span>% <span class="token punctuation">(</span><span class="token number">2</span>/2<span class="token punctuation">)</span>, done.
+Writing objects: <span class="token number">100</span>% <span class="token punctuation">(</span><span class="token number">3</span>/3<span class="token punctuation">)</span>, <span class="token number">314</span> bytes <span class="token operator">|</span> <span class="token number">0</span> bytes/s, done.
+Total <span class="token number">3</span> <span class="token punctuation">(</span>delta <span class="token number">0</span><span class="token punctuation">)</span>, reused <span class="token number">0</span> <span class="token punctuation">(</span>delta <span class="token number">0</span><span class="token punctuation">)</span>
+remote: <span class="token comment">### Attempting to validate files... ####</span>
+remote:
+remote: .oOo.oOo.oOo.oOo.oOo.oOo.oOo.oOo.oOo.oOo.
+remote:
+remote: Well done<span class="token operator">!</span> Here is the password <span class="token keyword">for</span> the next level:
+remote: 56a9bf19c63d650ce78e6ec0354ee45e
+remote:
+remote: .oOo.oOo.oOo.oOo.oOo.oOo.oOo.oOo.oOo.oOo.
+remote:
+To ssh://localhost/home/bandit31-git/repo
+ <span class="token operator">!</span> <span class="token punctuation">[</span>remote rejected<span class="token punctuation">]</span> master -<span class="token operator">&gt;</span> master <span class="token punctuation">(</span>pre-receive hook declined<span class="token punctuation">)</span>
+error: failed to push some refs to <span class="token string">'ssh://bandit31-git@localhost/home/bandit31-git/repo'</span>
+</code></pre></div><p>Pass : <code>56a9bf19c63d650ce78e6ec0354ee45e</code></p> <p><code>bandit32:56a9bf19c63d650ce78e6ec0354ee45e</code></p> <h2 id="level-32-→-level-33"><a href="#level-32-→-level-33" class="header-anchor">#</a> Level 32 → Level 33</h2> <blockquote><p><strong>Level Goal</strong></p> <p>After all this git stuff its time for another escape. Good luck!</p></blockquote> <p>On voit que nos commandes ne passent pas.</p> <div class="language-bash extra-class"><pre class="language-bash"><code>WELCOME TO THE UPPERCASE <span class="token environment constant">SHELL</span>
+<span class="token operator">&gt;&gt;</span> <span class="token function">ls</span>
+sh: <span class="token number">1</span>: LS: not found
+<span class="token operator">&gt;&gt;</span> <span class="token function">id</span>
+sh: <span class="token number">1</span>: ID: not found
+<span class="token operator">&gt;&gt;</span>
+</code></pre></div><p>D'après le message, on pourrait croire que toutes les commandes qu'on écrit sont convertis en majuscules. Donc il faut trouver un moyen de réussir à écrire en minuscule.
+On fait un <code>man sh</code> et on appercois la variable <code>0</code> intérressante qui en soit contient le nom du shell utilisé (voir le man de <code>sh</code>).</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token variable">$0</span>
+</code></pre></div><p>Et on obtiens un shell</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cat</span> /etc/bandit_pass/bandit33
+c9c3199ddf4121b10cf581a98d51caee
+</code></pre></div><p>Pass : <code>c9c3199ddf4121b10cf581a98d51caee</code></p> <p><code>bandit33:c9c3199ddf4121b10cf581a98d51caee</code></p> <h2 id="level-33-→-level-34"><a href="#level-33-→-level-34" class="header-anchor">#</a> Level 33 → Level 34</h2> <blockquote><p><strong>Level Goal</strong></p> <p>At this moment, level 34 does not exist yet.</p></blockquote></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/overthewire/Overthewire-Krypton.html">
+        Over the Wire - Challenge Write Ups Krypton
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.71648187.js" defer></script><script src="/assets/js/2.6a883eb4.js" defer></script><script src="/assets/js/11.127d24f6.js" defer></script>
+  </body>
+</html>
